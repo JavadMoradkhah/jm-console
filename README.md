@@ -48,7 +48,4 @@ console.custom('Hello World', colors.Blue, { bold: true });
 
 ## Colors
 
-Black | Red | Green | Yellow | Blue | Magenta | Cyan | White | Gray | RedLight | GreenLight
-YellowLight | BlueLight | MagentaLight | CyanLight | WhiteLight | BgBlack | BgRed | BgGreen
-BgYellow | BgBlue | BgMagenta | BgCyan | BgWhite | BgGray | BgRedLight | BgGreenLight | BgYellowLight
-BgBlueLight | BgMagentaLight | BgCyanLight | BgWhiteLight
+`Black` | `Red` | `Green` | `Yellow` | `Blue` | `Magenta` | `Cyan` | `White` | `Gray` | `RedLight` | `GreenLight` | `YellowLight` | `BlueLight` | `MagentaLight` | `CyanLight` | `WhiteLight` | `BgBlack` | `BgRed` | `BgGreen` | `BgYellow` | `BgBlue` | `BgMagenta` | `BgCyan` | `BgWhite` | `BgGray` | `BgRedLight` | `BgGreenLight` | `BgYellowLight` | `BgBlueLight` | `BgMagentaLight` | `BgCyanLight` | `BgWhiteLight` |
