@@ -14,6 +14,8 @@ npm i jm-console
 ```javascript
 const { console, colors } = require('jm-console');
 
+console.log(message, styles);
+
 console.success(message, styles);
 console.successBG(message, styles);
 
