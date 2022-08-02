@@ -4,8 +4,6 @@ const convert = require('./lib/convert');
 
 module.exports.colors = Colors;
 
-module.exports.styles = Styles;
-
 module.exports.console = {
   success: (message, styles = {}) => {
     console.log(convert(message, Colors.Green, styles));
