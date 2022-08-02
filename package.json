@@ -1,0 +1,20 @@
+{
+  "name": "jm-console",
+  "version": "1.0.0",
+  "description": "Colorized console for node.js",
+  "keywords": [
+    "console",
+    "console.log()",
+    "color",
+    "log"
+  ],
+  "repository": "https://github.com/JavadMoradkhah/jm-console",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {},
+  "author": "Javad Moradkhah",
+  "license": "ISC"
+}
+
