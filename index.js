@@ -1,5 +1,4 @@
 const Colors = require('./lib/colors');
-const Styles = require('./lib/styles');
 const convert = require('./lib/convert');
 
 module.exports.colors = Colors;
