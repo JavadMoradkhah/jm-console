@@ -1,6 +1,6 @@
 {
   "name": "jm-console",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Colorized console for node.js",
   "keywords": [
     "console",
@@ -17,4 +17,3 @@
   "author": "Javad Moradkhah",
   "license": "ISC"
 }
-
