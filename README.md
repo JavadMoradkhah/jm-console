@@ -3,6 +3,8 @@
 An easy-to-use colorized console for node.js.
 Log **colorized** and **styled** texts on the console!
 
+![screenshot](screenshot.png)
+
 ## Installation
 
 ```
@@ -34,6 +36,10 @@ console.custom(message, color, styles);
 ### Examples
 
 ```javascript
+console.log('Hello World');
+
+console.log('Hello World', { bold: true });
+
 console.success('Hello World', { bold: true, italic: true });
 
 console.custom('Hello World', colors.Blue, { bold: true });
