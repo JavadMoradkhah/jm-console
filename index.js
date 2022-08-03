@@ -5,34 +5,34 @@ const { Reset } = require('./lib/styles');
 module.exports.colors = Colors;
 
 module.exports.console = {
-  log: (message, styles = {}) => {
+  log: (message, styles) => {
     console.log(convert(message, Reset, styles));
   },
-  success: (message, styles = {}) => {
+  success: (message, styles) => {
     console.log(convert(message, Colors.Green, styles));
   },
-  successBG: (message, styles = {}) => {
+  successBG: (message, styles) => {
     console.log(convert(message, Colors.BgGreen, styles));
   },
-  info: (message, styles = {}) => {
+  info: (message, styles) => {
     console.log(convert(message, Colors.Cyan, styles));
   },
-  infoBG: (message, styles = {}) => {
+  infoBG: (message, styles) => {
     console.log(convert(message, Colors.BgCyan, styles));
   },
-  warning: (message, styles = {}) => {
+  warning: (message, styles) => {
     console.log(convert(message, Colors.Yellow, styles));
   },
-  warningBG: (message, styles = {}) => {
+  warningBG: (message, styles) => {
     console.log(convert(message, Colors.BgYellow, styles));
   },
-  error: (message, styles = {}) => {
+  error: (message, styles) => {
     console.log(convert(message, Colors.Red, styles));
   },
-  errorBG: (message, styles = {}) => {
+  errorBG: (message, styles) => {
     console.log(convert(message, Colors.BgRed, styles));
   },
-  custom: (message, color = Colors.White, styles = {}) => {
+  custom: (message, color, styles) => {
     console.log(convert(message, color, styles));
   },
 };
